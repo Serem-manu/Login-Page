@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #c5baab;
+    color: #a5e70a;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label {
+    top: -15px;
+    font-size: 12px;
+    color: #a07a4d;
+}
+
+.forget {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    background-color: #ffd900;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+a {
+    color: #ff8c00;
+}
+.heading h1 {
+    /* Display the heading text as a flexbox container */
+    display: flex;
+    justify-content: space-between;
+  
+    /* Set the font size and font family */
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: yellow;
+}
